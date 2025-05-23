@@ -1,0 +1,101 @@
+{
+  "data" : {
+    "light": {
+      "id": "T_001",
+      "name": "Light",
+      "colors": {
+        "swatch": "#FFFFFF",
+        "imageGallery": "#021373",
+        "borderColor": "#021373",
+        "sectionHeader": "#F2CB05",
+        "iconHover": "#cecece",
+        "body": "antiqueWhite",
+        "text": "#000000",
+        "altText": "#FFFFFF",
+        "button": {
+          "text": "#FFFFFF",
+          "background": "#000000"
+        },
+        "link": {
+          "text": "teal",
+          "opacity": 1
+        }
+      },
+      "font": "Noto Serif",
+      "fontSize": "12pt"
+    },
+    "seaWave": {
+      "id": "T_002",
+      "name": "Sea Wave",
+      "colors": {
+        "swatch": "#9be7ff",
+        "imageGallery": "#72c8dc",
+        "sectionHeader": "#72c8dc",
+        "borderColor": "#72c8dc",
+        "iconHover": "#57417a",
+        "body": "#9be7ff",
+        "text": "#57417a",
+        "altText": "#57417a",
+        "button": {
+          "text": "#ffffff",
+          "background": "#0d47a1"
+        },
+        "link": {
+          "text": "#7d5faf",
+          "opacity": 0.8
+        }
+      },
+      "font": "DynaPuff",
+      "fontSize": "14pt"
+    },
+    "terminal": {
+      "id": "T_003",
+      "name": "Terminal",
+      "colors": {
+        "swatch": "#2BF047",
+        "imageGallery": "#404040",
+        "sectionHeader": "#212121",
+        "borderColor": "#87FF4F",
+        "iconHover": "#57417a",
+        "body": "#000000",
+        "text": "#2BF047",
+        "altText": "#000000",
+        "button": {
+          "text": "#ffffff",
+          "background": "#0d47a1"
+        },
+        "link": {
+          "text": "#87FF4F",
+          "opacity": 0.8
+        }
+      },
+      "font": "Pixelify Sans",
+      "fontSize": "16pt"
+    },
+    "accessible": {
+      "id": "T_004",
+      "name": "Accessible",
+      "colors": {
+        "swatch": "#000000",
+        "imageGallery": "#404040",
+        "sectionHeader": "#808080",
+        "borderColor": "#FFFFFF",
+        "iconHover": "#57417a",
+        "body": "#000000",
+        "text": "#FFFFFF",
+        "altText": "#000000",
+        "button": {
+          "text": "#ffffff",
+          "background": "#0d47a1"
+        },
+        "link": {
+          "text": "#00FFFF",
+          "active": "#F532E9",
+          "opacity": 0.8
+        }
+      },
+      "font": "Roboto Slab",
+      "fontSize": "18pt"
+    }
+  }
+}
