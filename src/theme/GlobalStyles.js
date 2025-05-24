@@ -117,7 +117,15 @@ export const GlobalStyles = createGlobalStyle`
     .navItem {
         margin-right: 5rem;
     }
-
+    
+    .selectedTheme {
+        font-size: 1rem;
+        margin: 0;
+        
+        p {
+            margin: 0;
+        }
+    }
 
     // About Section 
     #about h1 {

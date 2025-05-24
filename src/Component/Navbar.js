@@ -29,7 +29,12 @@ export default function Navbar({ selectedTheme, setSelectedTheme }) {
                             <ArrowRightIcon className="contactNavIcon icon navItem subHeader"/>
                         </a>
                     </nav>
-                    <ThemeSelector setter={ setSelectedTheme } />
+                    <div className="themeContainer">
+                        <ThemeSelector setter={ setSelectedTheme } />
+                        <div className="selectedTheme">
+                            <p>Current Theme: <u>{selectedTheme.name}</u></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>
