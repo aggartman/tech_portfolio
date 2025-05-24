@@ -80,7 +80,11 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     .title {
-        font-size: 30px;
+        font-size: 3rem;
+    }
+    
+    .intro {
+        margin-left: 1rem;
     }
 
     .subHeader {
@@ -142,6 +146,11 @@ export const GlobalStyles = createGlobalStyle`
 
     .profilePhotoContainer {
         width: 45%;
+    }
+
+    .trailheadBadge {
+        width: 20%;
+        margin-bottom: 10px;
     }
     
 

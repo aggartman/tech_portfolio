@@ -5,8 +5,8 @@
       "name": "Light",
       "colors": {
         "swatch": "#FFFFFF",
-        "imageGallery": "#021373",
-        "borderColor": "#021373",
+        "imageGallery": "#C59A00",
+        "borderColor": "#C59A00",
         "sectionHeader": "#F2CB05",
         "iconHover": "#cecece",
         "body": "antiqueWhite",
@@ -22,7 +22,7 @@
         }
       },
       "font": "Noto Serif",
-      "fontSize": "12pt"
+      "fontSize": "16pt"
     },
     "seaWave": {
       "id": "T_002",
@@ -46,7 +46,7 @@
         }
       },
       "font": "DynaPuff",
-      "fontSize": "14pt"
+      "fontSize": "16pt"
     },
     "terminal": {
       "id": "T_003",
@@ -69,8 +69,8 @@
           "opacity": 0.8
         }
       },
-      "font": "Pixelify Sans",
-      "fontSize": "16pt"
+      "font": "VT323",
+      "fontSize": "20pt"
     },
     "accessible": {
       "id": "T_004",
@@ -95,7 +95,7 @@
         }
       },
       "font": "Roboto Slab",
-      "fontSize": "18pt"
+      "fontSize": "20pt"
     }
   }
 }
