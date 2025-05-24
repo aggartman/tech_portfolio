@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/tech_portfolio/static/css/main.3dfc4ea3.css",
+    "main.js": "/tech_portfolio/static/js/main.53a5e238.js",
+    "static/media/IMG_0506.JPG": "/tech_portfolio/static/media/IMG_0506.5da4f128fc749df0aa75.JPG",
+    "index.html": "/tech_portfolio/index.html",
+    "main.3dfc4ea3.css.map": "/tech_portfolio/static/css/main.3dfc4ea3.css.map",
+    "main.53a5e238.js.map": "/tech_portfolio/static/js/main.53a5e238.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3dfc4ea3.css",
+    "static/js/main.53a5e238.js"
+  ]
+}
