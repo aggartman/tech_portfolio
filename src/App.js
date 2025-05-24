@@ -14,6 +14,7 @@ import Footer from './Component/Footer';
 
 const Container = styled.div`
     margin: 5px auto;
+    scroll-padding-top: 4rem;
 `;
 
 function App() {

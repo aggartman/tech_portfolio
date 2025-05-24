@@ -233,5 +233,8 @@ export const GlobalStyles = createGlobalStyle`
         bottom: 0;
     }
 
+    #skills, #art {
+        scroll-padding-top: 4rem;
+    }
 
 `;
