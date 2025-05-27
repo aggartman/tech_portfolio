@@ -1,14 +1,17 @@
 {
   "files": {
     "main.css": "/tech_portfolio/static/css/main.3dfc4ea3.css",
-    "main.js": "/tech_portfolio/static/js/main.a09b811e.js",
+    "main.js": "/tech_portfolio/static/js/main.55edca17.js",
     "static/media/IMG_0506.JPG": "/tech_portfolio/static/media/IMG_0506.5da4f128fc749df0aa75.JPG",
+    "static/media/github-mark.svg": "/tech_portfolio/static/media/github-mark.c32e0c9ee73642798c2914e376fe78a7.svg",
+    "static/media/linkedin.svg": "/tech_portfolio/static/media/linkedin.d17b5735daeac7bde634a9fb71baa2c2.svg",
     "index.html": "/tech_portfolio/index.html",
+    "static/media/Salesforce_Logo.svg": "/tech_portfolio/static/media/Salesforce_Logo.1b393f2de8547059075d8bb92613ce03.svg",
     "main.3dfc4ea3.css.map": "/tech_portfolio/static/css/main.3dfc4ea3.css.map",
-    "main.a09b811e.js.map": "/tech_portfolio/static/js/main.a09b811e.js.map"
+    "main.55edca17.js.map": "/tech_portfolio/static/js/main.55edca17.js.map"
   },
   "entrypoints": [
     "static/css/main.3dfc4ea3.css",
-    "static/js/main.a09b811e.js"
+    "static/js/main.55edca17.js"
   ]
 }
