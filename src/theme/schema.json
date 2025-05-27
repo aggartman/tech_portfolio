@@ -4,11 +4,11 @@
       "id": "T_001",
       "name": "Light",
       "colors": {
-        "swatch": "#FFFFFF",
+        "swatch": "antiqueWhite",
         "imageGallery": "#C59A00",
         "borderColor": "#C59A00",
         "sectionHeader": "#F2CB05",
-        "iconHover": "#cecece",
+        "socialIcon": "#000000",
         "body": "antiqueWhite",
         "text": "#000000",
         "altText": "#FFFFFF",
@@ -24,28 +24,28 @@
       "font": "Noto Serif",
       "fontSize": "16pt"
     },
-    "seaWave": {
+    "dark": {
       "id": "T_002",
-      "name": "Sea Wave",
+      "name": "Dark",
       "colors": {
-        "swatch": "#9be7ff",
-        "imageGallery": "#72c8dc",
-        "sectionHeader": "#72c8dc",
-        "borderColor": "#72c8dc",
-        "iconHover": "#57417a",
-        "body": "#9be7ff",
-        "text": "#57417a",
-        "altText": "#57417a",
+        "swatch": "#1B1B1B",
+        "imageGallery": "#262626",
+        "sectionHeader": "#333333",
+        "borderColor": "#FEC74F",
+        "socialIcon": "#FEC74F",
+        "body": "#1B1B1B",
+        "text": "antiqueWhite",
+        "altText": "#1B1B1B",
         "button": {
           "text": "#ffffff",
           "background": "#0d47a1"
         },
         "link": {
-          "text": "#7d5faf",
+          "text": "#FEC74F",
           "opacity": 0.8
         }
       },
-      "font": "DynaPuff",
+      "font": "Noto Serif",
       "fontSize": "16pt"
     },
     "terminal": {
@@ -56,7 +56,7 @@
         "imageGallery": "#404040",
         "sectionHeader": "#212121",
         "borderColor": "#87FF4F",
-        "iconHover": "#57417a",
+        "socialIcon": "#2BF047",
         "body": "#000000",
         "text": "#2BF047",
         "altText": "#000000",
@@ -80,7 +80,7 @@
         "imageGallery": "#404040",
         "sectionHeader": "#808080",
         "borderColor": "#FFFFFF",
-        "iconHover": "#57417a",
+        "socialIcon": "#00FFFF",
         "body": "#000000",
         "text": "#FFFFFF",
         "altText": "#000000",

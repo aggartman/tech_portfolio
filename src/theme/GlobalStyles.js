@@ -200,6 +200,15 @@ export const GlobalStyles = createGlobalStyle`
             margin-top: 40px;
     }
     
+    .socialIcon {
+        width: 3rem;
+        padding: 0 1rem;
+        fill: ${({theme}) => theme.colors.socialIcon};
+    }
+    .githubMark {
+        padding-right: .5rem;
+    }
+    
     .contactForm {
         form div {
             margin: 10px 0;

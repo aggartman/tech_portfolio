@@ -1,4 +1,7 @@
 import React from "react";
+import { ReactComponent as GithubMark } from "../assets/github-mark.svg";
+import { ReactComponent as LinkedinMark } from "../assets/linkedin.svg";
+import { ReactComponent as TrailheadMark } from "../assets/Salesforce_Logo.svg";
 
 export default function Contact() {
     const [name, setName] = React.useState("");
@@ -27,25 +30,27 @@ export default function Contact() {
                         height="100%"
                         title="Map"
                         className="googleMap"
-                        frameBorder={0}
-                        marginHeight={0}
-                        marginWidth={0}
                         style={{filter: "opacity(0.7)" }}
-                        src="https://www.google.com/maps/embed/v1/place?q=7644+royal+ln+dallas&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"/>
+                        src="https://www.google.com/maps/embed/v1/place?q=5473+blair+rd+dallas&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"/>
                 </div>
                 <div className="personalInformation">
                     <div className="addressInfo">
                         <h2 className="address">ADDRESS</h2>
-                        <p className="address">7644 Royal Ln. <br /> Dallas, TX 75231 </p>
+                        <p className="address">5473 Blair Rd. #100<br /> Dallas, TX 75231 </p>
                     </div>
                     <div className="contactInfo">
                         <h2 className="emailTitle">Email</h2>
                         <a className="email">aggrizer@gmail.com</a>
                         <h2 className="phoneTitle">PHONE</h2>
-                        <p className="phone">123-456-7890</p>
+                        <p className="phone">972-343-8083</p>
                     </div>
                 </div>
                 <div className="contactForm">
+                    <div className="socialIcons">
+                        <a href="https://www.salesforce.com/trailblazer/agartman1"><TrailheadMark className="socialIcon trailheadMark"/></a>
+                        <a href="https://github.com/aggartman"><GithubMark className="socialIcon githubMark"/></a>
+                        <a href="https://www.linkedin.com/in/austinrizer/"><LinkedinMark className="socialIcon linkedinMark"/></a>
+                    </div>
                     <form name="contact" onSubmit={handleSubmit}>
                         <h2 className="contactFormTitle">CONTACT</h2>
                         <div className="contactFormName">
