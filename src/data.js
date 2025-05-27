@@ -41,5 +41,7 @@ export const skills = [
     ' Salesforce',
     ' Apex',
     ' Javascript',
-    ' Java'
+    ' Java',
+    ' Git',
+    ' Analytics'
 ];
