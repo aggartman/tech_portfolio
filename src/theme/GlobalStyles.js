@@ -337,6 +337,15 @@ export const GlobalStyles = createGlobalStyle`
 
     /* Extra Small (max-width: 480px) */
     @media (max-width: 480px) {
+        body {
+            //position: absolute;
+            overflow-x: hidden;
+        }
+        
+        #root {
+            overflow-x: hidden;
+        }
+        
         .title {
             font-size: 1.7rem;
         }
@@ -344,13 +353,25 @@ export const GlobalStyles = createGlobalStyle`
         .navItem {
             margin-right: 0.5rem;
         }
+        
+        .embeddedLinks {
+            font-size: 1rem;
+        }
 
         .subHeader {
             font-size: 0.9rem;
         }
+        
+        .container {
+            padding: 0;
+        }
 
         .profilePhoto {
             width: 200px;
+        }
+        
+        .imageGalleryContainer {
+            padding: .5rem 0;
         }
 
         .socialIcon {

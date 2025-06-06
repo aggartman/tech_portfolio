@@ -26,18 +26,24 @@ export default function About() {
                         I bring a holistic approach to software engineering.
                     </p>
                     <div className="trailheadBadgesContainer">
-                        <a href="https://www.salesforce.com/trailblazer/agartman1" target="_blank"><img className="trailheadBadge" alt="Ranger Trailhead Badge" src={rangerBadge}/></a>
+                        <a href="https://www.salesforce.com/trailblazer/agartman1" target="_blank"><img
+                            className="trailheadBadge" alt="Ranger Trailhead Badge" src={rangerBadge}/></a>
                     </div>
-                    <a
-                        href="#contact"
-                        className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-                        Work With Me
-                    </a>
-                    <a
-                        href="#skills"
-                        className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-                        Check my Skills
-                    </a>
+                    <div className="contactLinks">
+                        <a
+                            href="#contact"
+                            className="embeddedLinks aboutLink">
+                            Work With Me
+
+                        </a>
+                    </div>
+                    <div className="aboutLinks">
+                        <a
+                            href="#skills"
+                            className="embeddedLinks skillsLink">
+                            Check my Skills
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
